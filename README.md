@@ -22,14 +22,6 @@ npm install -g batch-markdown-email
 
 The CLI provides two commands: `validate` and `send`.
 
-## Validate
-
-The validate command checks your configuration and input files without sending any emails.
-
-```bash
-batch-markdown-email validate --markdown ./path/to/newsletter.md --subject "Your Subject" --to ./path/to/recipients.csv
-```
-
 ## Send
 
 The send command sends your newsletter via Postmark. You can optionally provide the --apiKey and --broadcastStream flags; if omitted, you’ll be prompted to enter them.

@@ -1,6 +1,6 @@
 {
   "name": "batch-markdown-email",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A CLI tool for sending markdown-based newsletters via Postmark",
   "main": "dist/index.js",
   "bin": {
@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "validate": "node dist/index.js validate",
     "send": "node dist/index.js send",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "git push origin && git tag v$(node -p \"require('./package.json').version\") && git push origin --tags"
