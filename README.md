@@ -1,5 +1,7 @@
 # Batch Markdown Email
 
+[![npm version](https://img.shields.io/npm/v/batch-markdown-email.svg?style=flat-square)](https://www.npmjs.com/package/batch-markdown-email)
+
 A CLI tool for sending markdown-based newsletters via Postmark. This tool converts a Markdown file into HTML and sends it as an email newsletter to a list of recipients using Postmark's batch API.
 
 ## Features
