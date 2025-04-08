@@ -30,6 +30,15 @@ The send command sends your newsletter via Postmark. You can optionally provide 
 batch-markdown-email send --markdown ./path/to/newsletter.md --subject "Your Subject" --to ./path/to/recipients.csv [--apiKey YOUR_POSTMARK_API_KEY] [--broadcastStream YOUR_FROM_EMAIL]
 ```
 
+You should format your email csv like this:
+
+```csv
+Emails
+test@email.com
+test2@email.com
+"Testing Name" <testingname@email.com>
+```
+
 ## Development
 
 Clone the repository and install dependencies:
