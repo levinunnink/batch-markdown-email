@@ -1,0 +1,43 @@
+{
+  "name": "batch-markdown-email",
+  "version": "1.0.0",
+  "description": "A CLI tool for sending markdown-based newsletters via Postmark",
+  "main": "dist/index.js",
+  "bin": {
+    "batch-markdown-email": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "validate": "node dist/index.js validate",
+    "send": "node dist/index.js send",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/batch-markdown-email.git"
+  },
+  "keywords": [
+    "postmark",
+    "newsletter",
+    "email",
+    "cli",
+    "markdown"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "csv-parser": "^3.2.0",
+    "inquirer": "^12.5.2",
+    "keytar": "^7.9.0",
+    "markdown-it": "^14.1.0",
+    "postmark": "^4.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
